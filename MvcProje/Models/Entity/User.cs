@@ -24,3 +24,4 @@ namespace MvcProje.Models.Entity
         public List<Animal> Animals { get; set; }
     }
 }
+
