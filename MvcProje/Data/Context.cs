@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MvcProje.Models.Entity;
+using MvcProje.Models.Entity; // asd
 
 namespace MvcProje.Data
 {
@@ -16,6 +16,7 @@ namespace MvcProje.Data
         public DbSet<Category> Categories { get; set; }
         public DbSet<Comment> Comments { get; set; }
         public DbSet<User> Users { get; set; }
+
 
     }
 }
